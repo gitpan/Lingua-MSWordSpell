@@ -1,0 +1,8 @@
+Changes
+COPYING
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+lib/Lingua/MSWordSpell.pm
+t/mswordspell.t

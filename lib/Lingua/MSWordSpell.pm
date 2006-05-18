@@ -2,18 +2,18 @@
 ## Name:        Lingua::MSWordSpell
 ## Purpose:     Spell-check using MS Word
 ## Author:      Simon Flack
-## Modified by: $Author: simonf $ on $Date: 2005/02/02 17:27:55 $
+## Modified by: $Author: mattheww $ on $Date: 2006/05/18 10:54:19 $
 ## Created:     21/03/2003
-## RCS-ID:      $Id: MSWordSpell.pm,v 1.10 2005/02/02 17:27:55 simonf Exp $
+## RCS-ID:      $Id: MSWordSpell.pm,v 1.11 2006/05/18 10:54:19 mattheww Exp $
 #############################################################################
 package Lingua::MSWordSpell;
 
 use strict;
 use Win32::OLE qw(in);
 use Carp;
-
 use vars '$VERSION';
-$VERSION = sprintf"%d.%03d", q$Revision: 1.10 $ =~ /: (\d+)\.(\d+)/;
+
+$VERSION = sprintf"%d.%03d", q$Revision: 1.11 $ =~ /: (\d+)\.(\d+)/;
 
 sub new {
     my $class = shift;
